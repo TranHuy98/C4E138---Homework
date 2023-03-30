@@ -70,7 +70,57 @@
 
 
  /* BT2 */
+ #bt2 {
+   border: 1px solid #000;
+   text-align: center;
+   font-family: Arial;
+   padding: 50px;
+   width: 500px;
+}
 
+#bt2 h1 {
+   color: #454C74;
+   font-size: 25px;
+   margin: 0;
+}
+
+#bt2 .h {
+   margin: 20px 0;
+}
+
+#bt2 .h div {
+   margin: 0 10px;
+   border: 2px solid #E24956;
+   color: #E24956;
+   font-size: 20px;
+   padding: 10px;
+   text-align: center;
+   display: inline-block;
+   font-weight: bold;
+}
+#bt2 .m{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+}
+#bt2 .m div {
+   margin: 0 10px;
+   border: 2px solid #E24956;
+   color: #E24956;
+   font-size: 20px;
+   padding: 20px 10px;
+   text-align: center;
+   font-weight: bold;
+   align-content: center;
+}
+
+#bt2 .h div:nth-child(3) {
+   border: 2px solid #6178B6;
+   color: #6178B6;
+}
+#bt2 .m div:nth-child(2) {
+   border: none;
+}
 
 
  /* BT3 */
@@ -115,6 +165,9 @@
     padding: 10px;
     margin: 0 10px;
  }
+ #bt3 .f span:hover{
+   cursor: pointer;
+ }
 
  /* BT4 */
  #bt4 {
@@ -142,4 +195,44 @@
     background-color: #F84A33;
     font-weight: lighter;
     font-size: 18px;
+ }
+
+ /* BT5 */
+
+ #bt5{
+   width: 600px;
+   border: 1px solid #000;
+   padding: 30px;
+   font-family: Arial;
+ }
+
+ #bt5 h2{
+   font-size: 25px;
+   margin: 0;
+ }
+ #bt5 h3{
+   font-size: 20px;
+   margin: 0;
+ }
+ #bt5 p{
+   font-size: 16px;
+   margin: 20px 0;
+   color: #AFAFAF;
+ }
+ #bt5 input[type=button] {
+   background-color: #00BDCE;
+   color: #FFF;
+   font-size: 16px;
+   font-weight: bold;
+   padding: 10px 20px;
+   border: none;
+ }
+ #bt5 .c{
+   width: auto;
+   background-color: #CCCCCC;
+   padding: 30px;
+   color: #FFF;
+   font-size: 50px;
+   margin: 20px 0;
+   text-align: center;
  }

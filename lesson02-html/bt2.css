@@ -3,6 +3,7 @@
     text-align: center;
     font-family: Arial;
     padding: 50px;
+    width: 500px;
 }
 
 h1 {
@@ -25,7 +26,11 @@ h1 {
     display: inline-block;
     font-weight: bold;
 }
-
+.m{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 .m div {
     margin: 0 10px;
     border: 2px solid #E24956;
@@ -33,9 +38,8 @@ h1 {
     font-size: 20px;
     padding: 20px 10px;
     text-align: center;
-    display: inline-block;
     font-weight: bold;
-    flex: 2;
+    align-content: center;
 }
 
 .h div:nth-child(3) {
