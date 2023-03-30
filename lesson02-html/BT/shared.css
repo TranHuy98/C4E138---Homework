@@ -1,0 +1,145 @@
+/* BT1 */
+#bt1 {
+    font-family: Arial;
+    background-color: #D2D2D2;
+    padding: 50px;
+    width: 500px;
+}
+#bt1 h2{
+    color: #3E75E9;
+}
+#bt1 li{
+    list-style-type: none;
+    margin: 0 0 15px;
+    position: relative;
+}
+#bt1 input[type=checkbox]{
+    margin: 0 10px 0 0;
+    position: relative;
+    z-index: 1;
+    border: 1px solid red;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: none;
+    opacity: 0;
+}
+#bt1 input[type=checkbox]:hover{
+    cursor: pointer;
+}
+#bt1 input[type=checkbox] ~ label:hover{
+    cursor: pointer;
+}
+#bt1 input[type=checkbox] ~ .custom_checkbox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #FFF;
+    margin: 0 20px 0 0;
+    border-radius: 5px;
+}
+#bt1 input[type=checkbox]:checked ~ .custom_checkbox{
+    background-color: #F84A33;
+}
+#bt1 input[type=checkbox]:disabled ~ .custom_checkbox{
+    background: #DCDCDC;
+}
+#bt1 input[type=checkbox]:disabled ~ label{
+    color: #BABABA;
+}
+#bt1 input[type=checkbox] ~ .custom_checkbox .check{
+    opacity: 0;
+ }
+ #bt1 input[type=checkbox]:checked ~ .custom_checkbox .check{
+    position: absolute;
+    top: 2px;
+    left: 7px;
+    height: 10px;
+    width: 5px;
+    border: solid #FFF;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    opacity: 1;
+ }
+#bt1 input[type=checkbox]:disabled ~ .custom_checkbox .check{
+    display: none;
+ }
+
+
+
+ /* BT2 */
+
+
+
+ /* BT3 */
+
+ #bt3 {
+    text-align: center;
+    width: 600px;
+    color: #2D3032;
+    border: 1px solid #000;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ #bt3 .h{
+    width: 190px;
+    height: 50px;
+    background: #839ACB;
+    color: #FFF;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+ }
+ #bt3 h1{
+    font-size: 30px;
+    margin: 20px 0;
+    text-transform: capitalize;
+ }
+ #bt3 h1 strong{
+    color: #00B1ED;
+ }
+ #bt3 p{
+    margin: 0 0 20px;
+ }
+ #bt3 .f{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+ }
+ #bt3 .f span{
+    background: #2D3032;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+    margin: 0 10px;
+ }
+
+ /* BT4 */
+ #bt4 {
+    text-align: center;
+    color: #FFF;
+    width: 600px;
+    border: 1px solid #000;
+    background: url(./img/1.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: Arial;
+    padding: 30px;
+ }
+ #bt4 h2{
+    font: 25px;
+    font-weight: lighter;
+ }
+ #bt4 p{
+    font-size: 16px;
+    margin: 15px 0;
+ }
+ #bt4 h3{
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: #F84A33;
+    font-weight: lighter;
+    font-size: 18px;
+ }
