@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 600px;
+    background-color: tan;
+    padding: 0;
+    border: 2px dotted #0057ED;
+    margin: auto;
+    font-family: Arial;
+    margin: 20px auto;
+}
+
+header{
+    background: #00ADE0;
+    padding: 30px 30px 0;
+    text-align: center;
+    position: relative;
+}
+h1{
+    font-size: 40px;
+    color: greenyellow;
+    margin: 0 0 20px;
+}
+h3{
+    font-size: 20px;
+    color: #0057ED;
+}
+img.mountain{
+    max-width: 80%;
+    margin: 20px 0 0;
+}
+img.cloud{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 100px;
+}
+img.c1{
+    bottom: 100px;
+    left: 30px;
+    top: auto;
+}
+.container{
+    padding: 30px;
+    background-color: #fff;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    color: aqua;
+    margin: 0 0 20px;
+}
+img.profile-img{
+    width: 100px;
+    margin: 0 0 20px;
+    border-radius: 50%;
+    border: 2px solid yellowgreen;
+}
+p.p1{
+    margin: 20px 0 50px;
+    font-size: 16px;
+}
+p.p1 i{
+    color: pink;
+}
+
+.description{
+    position: relative;
+    margin: 0 0 30px;
+    text-align: left;
+}
+.skill{
+    color: #0057ED;
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+.simg{
+    position: absolute;
+    top: 0;
+    width: 100px;
+}
+.left{
+    padding: 0 0 0 150px;
+}
+.left .simg{
+    left: 0;
+}
+.right{
+    padding: 0 150px 0 0;
+}
+.right .simg{
+    right: 0;
+}
+button{
+    margin: 30px 0 0;
+    padding: 10px 30px;
+    font-size: 16px;
+    border: 2px solid brown;
+    background: tan;
+    color: #FFF;
+}
+button:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+    color: red;
+    border: 2px solid green;
+}
+.h{
+    margin: 50px auto;
+    width: 200px;
+    border-top: 5px dashed aquamarine;
+}
+footer{
+    background: aqua;
+    padding: 30px;
+    text-align: center;
+}
+.links a{
+    margin: 0 20px;
+}
+p.year{
+    margin: 20px 0 0;
+}
