@@ -1,0 +1,44 @@
+.wrap{
+    font-family: Arial;
+    background: aqua;
+    width: 600px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.logo{
+    padding: 15px;
+    border: 1px solid red;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.item{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    border: 1px solid red;
+    background: tan;
+}

@@ -1,0 +1,63 @@
+.parent{
+    background-color: red;
+}
+.child{
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+    display: inline;
+}
+
+
+/* Flexbox */
+
+.d-flex{
+    background: aqua;
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.flex-item{
+    width: 150px;
+    height: 150px;
+    background-color: tan;
+    border: 2px solid red;
+    color: #FFF;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-basis: 12%; */
+}
+
+
+
+/* Grid */
+.d-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    background-color: aquamarine;
+    gap: 15px;
+    grid-template-areas: none;
+}
+.grid-item{
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.g1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background: violet;
+}
+.g3{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background: tan;
+}

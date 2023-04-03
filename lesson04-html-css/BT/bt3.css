@@ -1,0 +1,43 @@
+.wrap{
+    width: 600px;
+    background: aqua;
+    border: 2px solid blue;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.litem{
+    padding: 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    border: 2px solid red;
+    background: tan;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.ritem{
+    padding: 15px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.round{
+    border: 2px solid green;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
