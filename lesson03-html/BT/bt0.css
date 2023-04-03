@@ -1,0 +1,54 @@
+
+#bt0{
+    width: 500px;
+    background: #D9E9FB;
+    padding: 50px;
+    font-family: Arial;
+    border: 1px solid #DD0073;
+}
+p{
+    background: #FACDCC;
+    border: 1px solid red;
+    font-size: 16px;
+    padding: 20px;
+    margin: 0 0 20px;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    background: #00A4E0;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+}
+button.btn1{
+    position: relative;
+    background: #DD0073;
+    margin: 0 20px 0 0;
+}
+div.pop-up{
+    position: absolute;
+    top: -70px;
+    left: -40px;
+    width: 100px;
+    padding: 10px;
+    background: #ACE4E6;
+    display: none;
+    color: #000;
+    border-radius: 8px 8px 0 8px;
+}
+.a{
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #ACE4E6;
+}
+button.btn1:hover div.pop-up{
+    display: block;
+}
