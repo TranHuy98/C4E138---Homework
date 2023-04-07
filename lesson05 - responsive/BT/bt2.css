@@ -60,10 +60,12 @@ div.thumbnail{
     width: 100%;
     border: 1px solid #AAA;
     height: 300px;
-    background-image: url(./images/film.jpg);
-    background-position:  0 0;
-    background-size: cover;
     border-radius: 5px;
+}
+div.thumbnail img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 div.interact{
     margin: 15px 0 0;
@@ -193,18 +195,12 @@ div.list{
     height: 100px;
     border: 2px solid #FD5B23;
     border-radius: 50%;
-    background: url(./images/Ava1.png) no-repeat;
-    background-position: center center;
-    background-size: cover;
+    overflow: hidden;
 }
-.actor-item:nth-child(2) .actor-box{
-    background: url(./images/Ava2.png) no-repeat;
-}
-.actor-item:nth-child(3) .actor-box{
-    background: url(./images/Ava4.png) no-repeat;
-}
-.actor-item:nth-child(4) .actor-box{
-    background: url(./images/Ava5.png) no-repeat;
+.actor-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .actor-name{
