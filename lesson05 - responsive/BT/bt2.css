@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', serif;
+}
+.wrapper{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background: #006C94;
+    height: 60px;
+    color: #FFF;
+}
+div.account{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.user-image{
+    width: 40px;
+    height: 40px;
+}
+.user-name{
+    font-size: 18px;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+}
+.nav-item{
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav-item:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+div.content{
+    margin: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.left{
+    width: 45%;
+}
+div.thumbnail{
+    width: 100%;
+    border: 1px solid #AAA;
+    height: 300px;
+    background-image: url(./images/film.jpg);
+    background-position:  0 0;
+    background-size: cover;
+    border-radius: 5px;
+}
+div.interact{
+    margin: 15px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+div.interact button{
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid #aaa;
+}
+button.share{
+    background: #F9CDCC;
+}
+button.download{
+    background: #E5C621;
+}
+button.watch{
+    flex-grow: 1;
+    background: #00A3DF;
+}
+.right{
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.film-title{
+    font-size: 30px;
+}
+.film-name{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.time{
+    font-size: 20px;
+    color: #55CD61;
+}
+.rating{
+    font-size: 14px;
+    color: gold;
+    margin: 15px 0;
+}
+.tags{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+.tags span{
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+.bot{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.criteria{
+    font-size: 16px;
+    color: #02A4DC;
+}
+.criteria span{
+    font-weight: bold;
+    color: #000;
+    min-width: 100px;
+    display: inline-block;
+}
+.description{
+    margin: 20px 40px;
+    padding: 0;
+}
+.d-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.info{
+    border: 2px solid #02A4DC;
+    background: #eee;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0 0;
+}
+div.actor{
+    margin: 20px 40px 0;
+}
+.a-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+div.list{
+    margin: 10px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+.actor-item{
+    width: 200px;
+    border: 1px solid #AAA;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #ccc;
+    border-radius: 5px;
+}
+.actor-box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #FD5B23;
+    border-radius: 50%;
+    background: url(./images/Ava1.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.actor-item:nth-child(2) .actor-box{
+    background: url(./images/Ava2.png) no-repeat;
+}
+.actor-item:nth-child(3) .actor-box{
+    background: url(./images/Ava4.png) no-repeat;
+}
+.actor-item:nth-child(4) .actor-box{
+    background: url(./images/Ava5.png) no-repeat;
+}
+
+.actor-name{
+    font-size: 16px;
+    margin: 10px 0 0;
+    color: #FD5B23;
+}
