@@ -77,15 +77,23 @@ div.interact button{
     padding: 5px 10px;
     border-radius: 5px;
     border: 2px solid #aaa;
+    transition: 0.3s;
+}
+div.interact button:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: #FFF;
 }
 button.share{
     background: #F9CDCC;
+    flex-grow: 2;
 }
 button.download{
     background: #E5C621;
+    flex-grow: 2;
 }
 button.watch{
-    flex-grow: 1;
+    flex-grow: 10;
     background: #00A3DF;
 }
 .right{
