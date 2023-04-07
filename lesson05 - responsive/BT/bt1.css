@@ -1,0 +1,45 @@
+.wrapper{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.box{
+    width: 250px;
+    height: 250px;
+
+}
+.red{
+    background: red;
+}
+.black{
+    background: black;
+}
+.blue{
+    background: blue;
+}
+@media (min-width: 576px) and (max-width: 768px){
+    .blue{
+        order: 1;
+    }
+    .black{
+        order: 2;
+    }
+}
+@media (max-width: 575px){
+    .wrapper{
+        flex-direction: column;
+    }
+    .red{
+        order: 1;
+    }
+    .black{
+        order: 2;
+    }
+    .blue{
+        order: 0;
+    }
+}
