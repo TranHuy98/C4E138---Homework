@@ -202,3 +202,22 @@ h3.product-name{
     align-items: center;
     border-radius: 5px;
 }
+
+footer{
+    padding: 20px 30px;
+    background: aqua;
+}
+h2.shop-name{
+    font-size: 25px;
+    margin: 0 0 0 0;
+
+}
+.shop-info{
+    display: flex;
+    margin: 20px 0 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    font-size: 18px;
+}

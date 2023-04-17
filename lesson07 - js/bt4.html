@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    x = true, y = false, z = 10
+
+x && y → false
+x && !y → true
+x && z == 10 → 10
+(x && z == 10) → true
+!(x && z == 10) → false
+!(x && z == 50) → true
+
+x && y && z == 10 → false
+x && !y && z == 10 → true
+x || y || z == 10 → true
+(x && y) || z != 10 → false
+!(x && z == 10) || y → false
+</body>
+</html>
