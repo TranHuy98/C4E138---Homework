@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bt.css" />
+    <title>BT</title>
+  </head>
+  <body>
+    <section class="buttons">
+      <button class="login" onclick="loginShow()">LOG IN</button>
+      <button class="signup" onclick="signupShow()">SIGN UP</button>
+    </section>
+    <section class="login-block" id="login">
+      <div class="title">LOG IN</div>
+      <p>Email</p>
+      <input type="text" id="login-email" value="" placeholder="Nhập email" />
+      <p>Password</p>
+      <input
+        type="text"
+        id="login-password"
+        value=""
+        placeholder="Nhập mật khẩu"
+      />
+      <button class="check-login" onclick="checkLogin()">CHECK</button>
+    </section>
+    <section class="signup-block" id="signup">
+      <div class="title">SIGN UP</div>
+      <input type="text" id="signup-fisrtname" value="" />
+      <input type="text" id="signup-lastname" value="" />
+      <input type="text" id="signup-email" value="" />
+      <input type="text" id="signup-password" value="" />
+      <button class="check-signup" onclick="checkSignUp()">CHECK</button>
+    </section>
+    <section class="greet" id="greet"></section>
+  </body>
+  <script src="./bt.js"></script>
+</html>
