@@ -15,26 +15,27 @@ function primeCheck(n){
     }
 }
 
-execute.onclick = function(){
-    // let checkCondition = false;
-    // if(Number.isNaN(numberA) && Number.isNaN(numberB) && numberA >=0 && numberB>=0 && numberA<numberB){
-    //     alert(`Hãy nhập giá trị là số nguyên cho cả 2 ô, với a < b!`);
-    //     return;
-    // }
-    // else{
-    //     alert("no");
-    // }
+execute.onclick = function (){
 
     let numberA = Number(document.getElementById("numberA").value);
     let numberB = Number(document.getElementById("numberB").value);
    
     let prideNum = "";
     let primeSum = 0;
-    for(let i = numberA; i<=numberB; i++){
-        if (primeCheck(i)){
-            primeSum+=i;
+
+    if(numberA%1==0 && numberB%1==0 && numberA<numberB){
+        for(let i = numberA; i<=numberB; i++){
+            if (primeCheck(i)){
+                primeSum+=i;
+            }
         }
+        document.getElementById("sum").innerHTML = `Tổng của dãy các số nguyên tố từ ${numberA} đến ${numberB} là: ${primeSum}`;
     }
-    document.getElementById("sum").innerHTML = `Tổng của dãy các số nguyên tố từ ${numberA} đến ${numberB} là: ${primeSum}`;
+    else{
+        alert(`Dữ liệu nhập vào chưa đúng. Hãy nhập 2 số nguyên a và b với a<b`);
+        document.getElementById("numberA").value = ``;
+        document.getElementById("numberB").value = ``;
+        document.getElementById("sum").innerHTML = ``;
+    }
 }
 

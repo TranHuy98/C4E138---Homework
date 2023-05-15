@@ -5,24 +5,8 @@ execute.onclick = function(){
     console.log(number);
     let kq = "";
     let line = "";
-    let check = Number.isNaN(number);
-    // if(!check){
-    //     alert("Hãy nhập vào 1 số nguyên từ 1 đến 10");
-    //     return;
-    // }
-    // if(!(Number.isInteger(number))){
-    //     alert("Hãy nhập vào 1 số nguyên từ 1 đến 10");
-    //     return;
-    // }
-    if(number<1 || number>10){
-        alert("Hãy nhập vào 1 số nguyên từ 1 đến 10");
-        number = "";
-        return;
-    }
-    if(number==1){
-        kq = `*`;
-    }
-    else{
+
+    if(number%1==0 && number>1 && number<11){
         for(let i=1; i<=number;i++){
             for(let j=1; j<=i; j++){
                 line += "*";
@@ -30,6 +14,13 @@ execute.onclick = function(){
             kq+=`${line}</br>`;
             line = ``;
         }
+    }
+    else if(number == 1){
+        kq = `*`;
+    }
+    else{
+        alert('Dữ liệu nhập chưa đúng, hãy nhập số nguyên trong khoảng từ 1 đến 10');
+        document.getElementById("number").value = ``;
     }
     
     document.getElementById("kq").innerHTML = kq;
